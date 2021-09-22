@@ -1,0 +1,375 @@
+@media only screen and (max-width: 1393px) {
+  /* Navigation Bar */
+
+  #navbar ul {
+    display: none;
+  }
+
+  /* #navbar .menu-btn i {
+    display: block;
+  }
+
+  #click:checked ~ .menu-btn i::before {
+    content: '\f00d';
+  }
+
+  #navbar ul {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background-color: #111;
+    height: 100vh;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    display: block;
+    transition: 0.3s all ease-in;
+    -webkit-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    -ms-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+  }
+
+  #click:checked ~ ul {
+    left: 0px;
+  }
+
+  #navbar ul li {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  #navbar ul li a {
+    width: 10%;
+    margin-left: -100%;
+    display: block;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+}
+
+  #click:checked ~ ul li a {
+    margin-left: 0px;
+  }
+}*/
+
+  @media only screen and (max-width: 1111px) {
+    /* Home Section */
+
+    #home {
+      overflow: hidden;
+    }
+
+    /* Servcies Section */
+
+    #services-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    /* Discuss Project */
+
+    .box-2 {
+      display: grid;
+      grid-gap: 4rem;
+    }
+
+    .right-image {
+      order: 1;
+    }
+
+    .right-heading-p {
+      order: 2;
+    }
+
+    .box-3 {
+      display: grid;
+      grid-gap: 4rem;
+    }
+
+    footer {
+      overflow: hidden;
+    }
+
+    /* Blog Entries - be-img */
+
+    #be-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 791px) {
+    /* Home Section */
+    #home button {
+      margin-top: 40px;
+      font-size: 12px;
+    }
+
+    #home h1 {
+      letter-spacing: 1px;
+      margin-top: 70px;
+      line-height: 40px;
+    }
+
+    #home p {
+      font-size: 12px;
+      line-height: 12px;
+    }
+    /* Home Section - Utility */
+
+    .h-primary {
+      font-size: 22px;
+    }
+
+    /* Services Section */
+    .box {
+      margin-top: 30px;
+      height: 200px;
+      width: 280px;
+    }
+
+    .box img {
+      margin-top: 25px;
+    }
+
+    .box h2 {
+      margin-top: 20px;
+    }
+
+    .box p {
+      margin-top: 15px;
+      font-size: 15px;
+    }
+
+    /* Services Section - Utility */
+    .h-secondary {
+      font-size: 22px;
+    }
+
+    /* Dicuss Project */
+
+    #discuss-project {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 140px;
+    }
+
+    #brd {
+      border: 1px solid #f7f7f7;
+      margin: 50px auto;
+    }
+
+    .left-image {
+      margin-top: 0px;
+      margin-right: 0px;
+    }
+
+    .right-image {
+      margin-left: 0px;
+    }
+
+    .left-image,
+    .right-image {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left-image img,
+    .right-image img {
+      height: 170px;
+      width: 170px;
+    }
+
+    .right-heading-p {
+      margin-right: 0px;
+    }
+
+    .left-heading-p h3,
+    .right-heading-p h3 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .left-heading-p p,
+    .right-heading-p p {
+      font-size: 15px;
+      text-align: center;
+    }
+
+    /* Dicuss Project - Utility */
+
+    .h-third {
+      font-size: 22px;
+    }
+
+    /* Blog Entries */
+
+    #blog-entries {
+      padding-top: 100px;
+    }
+
+    .header-top h4 {
+      font-size: 22px;
+    }
+
+    .header-top p {
+      font-size: 15px;
+    }
+
+    /* Blog Entries - be-img */
+
+    #be-img {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .box-4 {
+      margin-top: 40px;
+    }
+
+    .box-4 img {
+      display: block;
+      margin: 0 auto;
+      height: 170px;
+    }
+
+    .box-4 h2 {
+      margin: 20px 0;
+    }
+
+    .box-4 p {
+      font-size: 15px;
+    }
+
+    .box-4 button {
+      font-size: 12px;
+      margin-top: 20px;
+      padding: 10px 15px;
+    }
+
+    /* Contact Box */
+
+    #contact-box input,
+    #contact-box textarea {
+      width: 300px;
+      height: 50px;
+      margin-bottom: 25px;
+    }
+
+    #contact-box textarea {
+      height: 80px;
+    }
+
+    #contact-h-p {
+      padding-top: 50px;
+    }
+
+    #contact-h-p h1 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    #contact-h-p p {
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    #contact-box button {
+      font-size: 12px;
+      margin-top: 20px;
+      padding: 10px 15px;
+    }
+
+    /* Social Section */
+
+    .social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .social li {
+      margin-top: 50px;
+      height: 36px;
+      width: 36px;
+      font-size: 22px;
+    }
+
+    /* Button - Utility */
+
+    .btn {
+      padding: 10px 15px;
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    /* Navigation Bar */
+
+    #w-bg {
+      height: 30px;
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    /* Services Section */
+
+    .box {
+      margin-top: 10px;
+      height: 200px;
+      width: 250px;
+    }
+
+    .box img {
+      margin-top: 25px;
+    }
+
+    .box h2 {
+      margin-top: 10px;
+    }
+
+    .box p {
+      margin-top: 10px;
+    }
+
+    /* Contact Box */
+
+    #contact-box input,
+    #contact-box textarea {
+      width: 150px;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+
+    #contact-box textarea {
+      height: 80px;
+    }
+  }
+  @media only screen and (max-width: 286px) {
+    /* Home Section */
+
+    #home button {
+      display: none;
+    }
+
+    /* Section be-img */
+
+    .box-4 img {
+      display: block;
+      margin: 0 auto;
+      height: 120px;
+    }
+  }
+}
